@@ -1,0 +1,19 @@
+# Python
+backend/venv/
+backend/__pycache__/
+*.pyc
+*.pyo
+.env
+.env.local
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Data (training data - not needed on server)
+data/
+
+# OS
+.DS_Store
+Thumbs.db

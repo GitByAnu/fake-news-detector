@@ -1,0 +1,8 @@
+{
+  "accuracy": 0.9926,
+  "precision": 0.9901,
+  "recall": 0.9943,
+  "f1_score": 0.9922,
+  "cv_mean_f1": NaN,
+  "cv_std": NaN
+}
