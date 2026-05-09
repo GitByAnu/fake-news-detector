@@ -16,9 +16,8 @@ import json
 
 app = Flask(__name__)
 CORS(app, origins=[
-    "http://localhost:5173",           # local dev
-    "http://localhost:5174",           # vite alternate port
-    # "https://YOUR-APP.vercel.app"   # ← uncomment & fill after Vercel deploy
+    "https://getveritasai.vercel.app",
+    "http://localhost:5173"
 ])
 
 # ─────────────────────────────────────────────
