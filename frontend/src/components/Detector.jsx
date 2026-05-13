@@ -344,7 +344,7 @@ export default function Detector() {
       if (err.response?.data?.error) {
         setError(err.response.data.error)
       } else {
-        setError('Backend server is offline. Start Flask with: cd backend && python app.py')
+        setError('Please wait 30 seconds and try again.')
       }
     } finally {
       setLoading(false)
